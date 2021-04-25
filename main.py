@@ -29,6 +29,8 @@ def main():
             hindrance()
         elif const.mod == '3':
             advantage()
+        else:
+            print(const.error_message)
     else:
         print(const.error_message)
     print('Выпало ' + str(const.result) + '!\n')
